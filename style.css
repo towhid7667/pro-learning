@@ -185,6 +185,11 @@
         text-align: center;
     }
 
+    .student-meet-button {
+        padding: 10px 15px !important;
+        font-size: 10px;
+    }
+
 
 
 
@@ -235,6 +240,11 @@
     .student-data {
         width: 90%;
         margin-left: 5%;
+    }
+
+    .student-meet-button {
+        padding: 10px 15px !important;
+        font-size: 15px;
     }
 
 
