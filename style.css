@@ -190,6 +190,10 @@
         font-size: 10px;
     }
 
+    .accordion {
+        width: 75% !important;
+    }
+
 
 
 
@@ -245,6 +249,10 @@
     .student-meet-button {
         padding: 10px 15px !important;
         font-size: 15px;
+    }
+
+    .accordion {
+        width: 75% !important;
     }
 
 
