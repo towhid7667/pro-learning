@@ -67,8 +67,13 @@
         font-size: 8px;
     }
 
+    .course-thumbnail {
+        width: 100% !important;
+
+    }
+
     .course-thumbnail img {
-        width: 21rem !important;
+        width: 100% !important;
 
     }
 
