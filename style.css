@@ -3,6 +3,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     font-family: 'Rubik', sans-serif;
+
 }
 
 .title-text {
@@ -39,6 +40,32 @@
     .title-button {
         font-size: 10px;
         padding: 5px !important;
+    }
+
+
+    .course-01 {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .course-details {
+        text-align: justify;
+        width: 50%;
+    }
+
+    .courses h1 {
+        font-size: 20px;
+    }
+
+    .courses p {
+        font-size: 10px;
+    }
+
+    .course-thumbnail img {
+        width: 100% !important;
+
     }
 
 }
