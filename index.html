@@ -25,28 +25,28 @@
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                             <li class="nav-item ">
-                                <a class="nav-link active px-4" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active px-4 text-uppercase" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active px-4" href="#">Courses</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link active px-4" href="#">Deals</a>
+                                <a class="nav-link active px-4 text-uppercase" href="#">Courses</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active px-4" href="#">About</a>
+                                <a class="nav-link active px-4 text-uppercase" href="#">Deals</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active px-4" href="#">Register</a>
+                                <a class="nav-link active px-4 text-uppercase" href="#">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active px-4 text-uppercase" href="#">Register</a>
                             </li>
 
 
                         </ul>
                         <form class="d-flex" role="search">
-                            <button class="btn btn-outline-info px-4" type="register">Register</button>
+                            <button class="btn btn-outline-info px-4 text-uppercase" type="register">Register</button>
                         </form>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
         </section>
         <!-- courses section ends -->
         <!-- Explore learning section starts here -->
-        <section>
+        <section class="exolore-things">
             <div
                 class=" container explore-elements d-md-flex d-lg-flex border border-1 rounded-2 align-content-center p-0">
                 <div class="explore-img w-50 ">
@@ -271,8 +271,47 @@
         </section>
 
         <!-- Explore learning section ends here -->
-        <section>
+        <section class="my-5 ">
+            <div
+                class="join-register container d-md-flex d-lg-flex justify-content-around align-items-center bg-info rounded-2">
+                <div class="join-details w-25">
+                    <h1 class="text-white">Ready to join?</h1>
+                    <p class="text-white">Move your creative journey forward without putting life on hold. Skillshare’s
+                        short online
+                        classes help you find inspiration that fits your routine.</p>
+                </div>
 
+                <div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn bg-light text-info text-uppercase px-4 py-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Your join request is send. make sure to save changes</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary px-4 py-2"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button"
+                                        class="bg-info text-white border none rounded-2 px-3 py-2">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
