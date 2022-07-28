@@ -38,6 +38,10 @@
     padding: 50px;
 }
 
+.small-text {
+    width: 60%;
+}
+
 
 
 
@@ -100,6 +104,12 @@
 
     }
 
+    .course-button {
+        padding: 10px 15px !important;
+        font-size: 15px;
+
+    }
+
     .explore-elements {
         width: 80%;
     }
@@ -156,6 +166,25 @@
         width: 100% !important;
     }
 
+    .join-register {
+        width: 78% !important;
+    }
+
+    .student-data {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .student-info h1 {
+        text-align: center;
+
+    }
+
+    .small-text {
+        width: 100% !important;
+        text-align: center;
+    }
+
 
 
 
@@ -182,6 +211,7 @@
         margin-top: 100px;
     }
 
+
     .explore-details h1 {
         font-size: 20px;
 
@@ -201,6 +231,12 @@
         padding: 15px !important;
         font-size: 10px;
     }
+
+    .student-data {
+        width: 90%;
+        margin-left: 5%;
+    }
+
 
 
 
